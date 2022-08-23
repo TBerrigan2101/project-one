@@ -52,58 +52,43 @@ h1, h2 {
     background-color: #3a3a3a;
 }
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;  
+
+    position: relative;
+}
+
+#cover-text, #cover-text h1 {
+    color: #ffffff;
+
+} 
+
+#cover-text, #cover-text p {
+    color: #ffffff;
+
+} 
 
 #hero-image {
     height: 700px;
     width: 100%;
     background: url('../images/hero_homepage.jpg') no-repeat center;
-    background-size: cover;
     overflow: hidden;
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;
 }
 
-.spacer {
-    clear: all;
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left:10%;
 }
 
-/* releases section */
-
-#latest-releases {
-    height: 700px;
-    padding: 20px 100px 30px 100px;
-}
-
-#left-box {
-    width: 25%;
-    padding: 10px;
-    margin: 10px;
-    background-color: #fff;
-    float: left;
-}
-
-#right-box {
-    width: 25%;
-    padding: 10px;
-    margin: 10px;
-    background-color: #fff;
-    float: right;
-
-}
-
-#center-box {
-    width: 25%;
-    padding: 10px;
-    margin: 10px;
-    background-color: #fff;
-    margin: 0 auto;
-
-/* stories section */
-
-#latest-stories {
-    height: 700px;
-    width: 100%;
-}
-
-footer {
-	background-color: #3a3a3a;
-
-}
+.hero-heading {display:inline-block; 
+    border-bottom:3px solid #808cf8; padding-bottom:5px;}
