@@ -59,16 +59,7 @@ h1, h2 {
 
     position: relative;
 }
-
-#cover-text, #cover-text h1 {
-    color: #ffffff;
-
-} 
-
-#cover-text, #cover-text p {
-    color: #ffffff;
-
-} 
+ 
 
 #hero-image {
     height: 700px;
@@ -80,15 +71,36 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    position: absolute;
+    top: 10%;
+    left:10%;
+    width: 450px;
+}
+
+.hero-heading {
+    font-size: 400%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: left;
-    position: absolute;
-    top: 30%;
-    left:10%;
+    color: #f7f1ed;
 }
 
-.hero-heading {display:inline-block; 
-    border-bottom:3px solid #808cf8; padding-bottom:5px;}
+.hero-subheading {
+    font-size: 200%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: left;
+    color: #d96845;
+    padding-bottom: 5%;
+}
+
+
+.hero-text {
+    font-size: 100%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    text-align: left;
+    color: white;
+}
