@@ -128,19 +128,16 @@ h1, h2 {
 
 .column50 {
     width: 50%;
+    height: 300px;
+    float: left;
 }
 
 .left-column {
     float: left;
-    background-color: #3a3a3a;
+
 }
 
 .right-column {
     float: right;
     background-color: #d96845;
-}
-
-.w100 {
-    width: 100%;
-    height: 100%;
 }
