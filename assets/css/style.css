@@ -25,7 +25,7 @@ h1, h2 {
 #header-logo {
     height: 100px;
     width: 100%;
-    padding: 25px 0 35px 0;
+    padding: 25px 0 45px 0;
     text-align: center;
     position: relative;
 }
@@ -61,13 +61,22 @@ h1, h2 {
 }
  
 
-#hero-image {
+#hero-home {
     height: 700px;
     width: 100%;
     background: url('../images/hero_homepage.jpg') no-repeat center;
     overflow: hidden;
     background-position: 0px 0px, 0px 0px;
     background-size: cover, auto;
+}
+
+#hero-stories {
+    height: 700px;
+    width: 100%;
+    background: url('../images/hero_stories.jpeg') no-repeat center;
+    overflow: hidden;
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;  
 }
 
 #cover-text {
@@ -103,4 +112,35 @@ h1, h2 {
     letter-spacing: 4px;
     text-align: left;
     color: white;
+}
+
+/* latest releases section */
+
+#latest-releases {
+    height: 600px;
+}
+
+.content-box {
+    max-width: auto;
+    margin: 5% 10%;
+
+}
+
+.column50 {
+    width: 50%;
+}
+
+.left-column {
+    float: left;
+    background-color: #3a3a3a;
+}
+
+.right-column {
+    float: right;
+    background-color: #d96845;
+}
+
+.w100 {
+    width: 100%;
+    height: 100%;
 }
