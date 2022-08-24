@@ -13,6 +13,7 @@ body {
     color: #3a3a3a;
 }
 
+
 /* headings and logo */
 
 h1, h2 {
@@ -45,11 +46,11 @@ h1, h2 {
     letter-spacing: 4px;
 	color: beige;
     padding: 0px 50px 0px 50px;
-    display: inline;
+    line-height: 40px;
 }
 
 #menu a:hover {
-    background-color: #3a3a3a;
+    color: #3a3a3a;
 }
 
 #hero-outer {
@@ -171,6 +172,39 @@ h1, h2 {
 #stories-right-box {
     width: 33%;
     float:right;    
+}
+
+/* footer */
+
+footer {
+    background-color: #3a3a3a;
+    border-top: #d96845 solid 10px;
+    height: 150px;
+    margin-bottom: 0;
+}
+
+
+.social-networks {
+     text-align: center;
+ 
+ }
+ 
+ .social-networks > li {
+     display: inline;
+ }
+ 
+ .social-networks i {
+     font-size: 160%;
+     margin: 1%;
+     padding: 1%;
+     color: white;
+ }
+
+ .social-networks i:hover {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #d96845;
 }
 
 
