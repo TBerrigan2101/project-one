@@ -28,7 +28,7 @@ h1 {
 
 h2 {
     font-family: Oswald, sans-serif;
-    color: #d96845;
+    color: #3a3a3a;
     font-size: 24px;
     line-height: 27px;
     font-weight: 400;
@@ -268,12 +268,30 @@ ul, ol {
     background-size: cover, auto;  
 }
 
+#hero-about-us {
+    height: 700px;
+    width: 100%;
+    background: url('../images/hero_about_us.jpg') no-repeat center;
+    overflow: hidden;
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;  
+}
+
+#hero-contact-us {
+    height: 700px;
+    width: 100%;
+    background: url('../images/hero_contact_us.jpg') no-repeat center;
+    overflow: hidden;
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;  
+}
+
 
 #cover-text {
     position: absolute;
     top: 10%;
     left:10%;
-    width: 450px;
+    width: 35%;
 }
 
 .hero-heading {
@@ -302,6 +320,14 @@ ul, ol {
     letter-spacing: 4px;
     text-align: left;
     color: white;
+}
+
+/* about us section */
+
+#about-us-content {
+    height: auto;
+    max-width: auto;
+    margin: 5% 10%;
 }
 
 
