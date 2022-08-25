@@ -89,6 +89,20 @@ a:hover {
 
 /* Structural CSS */
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: auto;
+    margin: 5% 10%;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: 10px;
+  }
+
+
 
 #box-container {
     height: auto;
@@ -397,6 +411,12 @@ footer {
     .right-box {
         width: 100%;
     }
+
+    .flex-container > div {
+        background-color: #f1f1f1;
+        width: 45%;
+        margin: 10px;
+      }
 
 }
     
