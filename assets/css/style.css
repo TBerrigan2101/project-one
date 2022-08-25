@@ -61,6 +61,71 @@ a:hover {
     color: #d96845;
 }
 
+.question {
+    font-family: Oswald, sans-serif;
+    color: #d96845;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.answer {
+    font-family: Open Sans, sans-serif;
+    color: #3a3a3a
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.photo-caption {
+    font-family: Open Sans, sans-serif;
+    color: #3a3a3a
+    font-size: 15px;
+    font-weight: 900;
+    padding-bottom: 20px 0 40px 0;
+}
+
+
+/* Structural CSS */
+
+
+#box-container {
+    height: auto;
+    max-width: auto;
+    margin: 5% 10%;
+
+}
+
+.left-box {
+    width: 30%;
+    float: left;
+}
+
+.center-box {
+    width: 30%;
+    margin: 0 auto; 
+}
+
+.right-box {
+    width: 30%;
+    float: right;    
+}
+
+
+.content-box {
+    background-color: white;
+    border-radius: 2px;
+    padding: 8px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.w100 {
+    width: 100%
+}
+
+
 
 /* header and nav */
 
@@ -114,6 +179,15 @@ a:hover {
     background-size: cover, auto;
 }
 
+#hero-releases {
+    height: 700px;
+    width: 100%;
+    background: url('../images/hero_releases.jpg') no-repeat center;
+    overflow: hidden;
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;
+}
+
 #hero-stories {
     height: 700px;
     width: 100%;
@@ -122,6 +196,34 @@ a:hover {
     background-position: 0px 0px, 0px 0px;
     background-size: cover, auto;  
 }
+
+#hero-stories-ken-andrews {
+    height: 700px;
+    width: 100%;
+    background: url('../images/hero_stories_bob_nanna.jpeg') no-repeat center;
+    overflow: hidden;
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;  
+}
+
+#hero-stories-jonah-matranga {
+    height: 700px;
+    width: 100%;
+    background: url('../images/hero_stories_bob_nanna.jpeg') no-repeat center;
+    overflow: hidden;
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;  
+}
+
+#hero-stories-bob-nanna {
+    height: 700px;
+    width: 100%;
+    background: url('../images/hero_stories_bob_nanna.jpeg') no-repeat center;
+    overflow: hidden;
+    background-position: 0px 0px, 0px 0px;
+    background-size: cover, auto;  
+}
+
 
 #cover-text {
     position: absolute;
@@ -140,24 +242,32 @@ a:hover {
 }
 
 .hero-subheading {
-    font-size: 200%;
+    font-size: 250%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: left;
-    color: #d96845;
+    color: #f7f1ed;
     padding-bottom: 5%;
 }
 
 
 .hero-text {
-    font-size: 100%;
+    font-size: 150%;
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     text-align: left;
     color: white;
 }
 
+
+/* stories section */
+
+#stories-content {
+    height: auto;
+    max-width: auto;
+    margin: 5% 10%;
+}
 
 /* latest releases section */
 
@@ -183,18 +293,6 @@ a:hover {
 }
 
 
-.content-box {
-    background-color: white;
-    border-radius: 2px;
-    padding: 8px;
-    margin-bottom: 20px;
-}
-
-.w100 {
-    width: 100%
-}
-
-
 /* latest stories section */
 
 #latest-stories {
@@ -217,6 +315,18 @@ a:hover {
     width: 33%;
     float:right;    
 }
+
+/* releases page */
+
+#releases {
+    float: left;
+    margin: 5% 10%;
+    line-height: 5px;
+    column-count: 3;
+    column-gap: 5px;
+    padding: 5px;
+}
+
 
 /* footer */
 
@@ -276,5 +386,17 @@ footer {
     #stories-center-box {
         width:100%;
     }
+    .left-box {
+        width: 100%;
+    }
+    
+    .center-box {
+        width: 100%;
+    }
+    
+    .right-box {
+        width: 100%;
+    }
+
 }
     
