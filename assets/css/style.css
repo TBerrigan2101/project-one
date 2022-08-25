@@ -102,6 +102,10 @@ a:hover {
     padding-bottom: 20px 0 40px 0;
 }
 
+ul, ol {
+    margin-left: 15px;
+    line-height: 160%;
+}
 
 
 
@@ -409,7 +413,8 @@ footer {
 }
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {  
+
     #releases-left-box {
         width:100%;
     }
