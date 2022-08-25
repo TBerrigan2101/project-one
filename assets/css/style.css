@@ -244,7 +244,7 @@ ul, ol {
 #hero-stories-ken-andrews {
     height: 700px;
     width: 100%;
-    background: url('../images/hero_stories_bob_nanna.jpeg') no-repeat center;
+    background: url('../images/hero_stories_ken_andrews.jpg') no-repeat center;
     overflow: hidden;
     background-position: 0px 0px, 0px 0px;
     background-size: cover, auto;  
@@ -253,7 +253,7 @@ ul, ol {
 #hero-stories-jonah-matranga {
     height: 700px;
     width: 100%;
-    background: url('../images/hero_stories_bob_nanna.jpeg') no-repeat center;
+    background: url('../images/hero_stories_jonah_matranga.jpeg') no-repeat center;
     overflow: hidden;
     background-position: 0px 0px, 0px 0px;
     background-size: cover, auto;  
@@ -311,6 +311,12 @@ ul, ol {
     height: auto;
     max-width: auto;
     margin: 5% 10%;
+}
+
+/* media */
+
+#media {
+    margin-bottom: 5%;
 }
 
 /* latest releases section */
