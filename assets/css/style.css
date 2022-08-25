@@ -13,6 +13,43 @@ body {
     color: #3a3a3a;
 }
 
+/* header and nav */
+
+.logo {
+    height: auto;
+    margin: 5% auto;
+    width: 80%;
+}
+
+.logo img {
+    float: left;
+    max-width: 33%;
+    padding-bottom: 5%;
+}
+
+.menu { 
+    font-family: Oswald, sans-serif;
+    font-size: 110%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 2%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #3a3a3a;
+
+}
+
+.menu a:hover {
+    color: #d96845;
+}
+
 
 /* headings and text */
 
@@ -159,10 +196,7 @@ ul, ol {
 
 
 .content-box {
-    background-color: white;
-    border-radius: 2px;
-    padding: 8px;
-    height: auto;
+    margin-bottom: 5%;
 }
 
 .w100 {
@@ -170,38 +204,6 @@ ul, ol {
 }
 
 
-
-/* header and nav */
-
-#header-logo {
-    height: 100px;
-    width: 100%;
-    padding: 25px 0 45px 0;
-    text-align: center;
-    position: relative;
-}
-
-#menu {
-    height: 40px;
-    width: 100%;
-    background-color: #d96845;
-    text-align: center;
-}
-
-#menu a {
-    font-family: Oswald, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 4px;
-	color: beige;
-    padding: 0px 50px 0px 50px;
-    line-height: 40px;
-}
-
-#menu a:hover {
-    color: #3a3a3a;
-}
 
 /* hero image */
 
@@ -215,7 +217,7 @@ ul, ol {
  
 
 #hero-home {
-    height: 700px;
+    height: 100%;
     width: 100%;
     background: url('../images/hero_homepage.jpg') no-repeat center;
     overflow: hidden;
@@ -291,7 +293,7 @@ ul, ol {
     position: absolute;
     top: 10%;
     left:10%;
-    width: 35%;
+    width: 45%;
 }
 
 .hero-heading {
@@ -319,7 +321,7 @@ ul, ol {
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     text-align: left;
-    color: white;
+    color: #ffffff;
 }
 
 /* about us section */
@@ -347,23 +349,23 @@ ul, ol {
 
 /* latest releases section */
 
-#latest-releases {
+.latest-releases {
     height: auto;
-    max-width: auto;
-    margin: 5% 10%;
+    margin: 5% auto;
+    max-width: 80%;
 }
 
-#releases-left-box {
+.releases-left-box {
     width: 33%;
     float:left;
 }
 
-#releases-center-box {
+.releases-center-box {
     width: 33%;
     margin: 0 auto; 
 }
 
-#releases-right-box {
+.releases-right-box {
     width: 33%;
     float:right;    
 }
@@ -418,6 +420,7 @@ footer {
     border-top: #d96845 solid 10px;
     height: 150px;
     margin-bottom: 0;
+    position: static;
 }
 
 
@@ -434,7 +437,7 @@ footer {
      font-size: 160%;
      margin: 1%;
      padding: 1%;
-     color: white;
+     color: #ffffff;
  }
 
  .social-networks i:hover {
@@ -445,17 +448,27 @@ footer {
 }
 
 
-@media screen and (max-width: 980px) {  
+@media screen and (max-width: 320px) {  
 
-    #releases-left-box {
+    .logo img {
+        max-width: 100%;
+    }
+
+    .menu { 
+        font-size: 80%;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .releases-left-box {
         width:100%;
     }
 
-    #releases-right-box {
+    .releases-right-box {
         width:100%;
     }
 
-    #releases-center-box {
+    .releases-center-box {
         width:100%;
     }
 
@@ -487,6 +500,3 @@ footer {
         width: 45%;
         margin: 10px;
       }
-
-}
-    
