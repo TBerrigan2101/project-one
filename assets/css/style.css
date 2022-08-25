@@ -64,7 +64,7 @@ a:hover {
 .question {
     font-family: Oswald, sans-serif;
     color: #d96845;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: 700;
     padding-bottom: 20px;
@@ -72,23 +72,23 @@ a:hover {
 
 .answer {
     font-family: Open Sans, sans-serif;
-    color: #3a3a3a
-    font-size: 20px;
-    font-weight: 900;
+    color: #3a3a3a;
+    font-size : 16px;
+    font-weight: 400;
     padding-bottom: 40px;
 }
 
 .photo-caption {
-    font-family: Open Sans, sans-serif;
-    color: #3a3a3a
+    font-family: Oswald, sans-serif;
+    color: #3a3a3a;
     font-size: 15px;
     font-weight: 900;
-    padding-bottom: 20px 0 40px 0;
+    padding-bottom: 20px;
 }
 
 .album-title {
     font-family: Oswald, sans-serif;
-    color: #d96845
+    color: #d96845;
     font-size: 30px;
     font-weight: 900;
     padding-bottom: 20px 0 40px 0;
