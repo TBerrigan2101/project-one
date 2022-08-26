@@ -345,7 +345,7 @@ footer {
 }
 
 
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 600px) { 
 
     .logo img {
         max-width: 100%;
