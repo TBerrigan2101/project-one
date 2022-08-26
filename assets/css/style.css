@@ -153,11 +153,10 @@ ul, ol {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    margin: 5% 10%;
   }
 
   .flex-container > div {
-    background-color: #f1f1f1;
+
     width: 30%;
     margin: 10px;
   }
@@ -166,6 +165,7 @@ ul, ol {
     display: flex;
     flex-wrap: wrap;
     max-width: auto;
+
     columns: 2;
     column-gap: 5%;
   }
@@ -448,7 +448,7 @@ footer {
 }
 
 
-@media screen and (max-width: 320px) {  
+    @media screen and (max-width: 320px) {  
 
     .logo img {
         max-width: 100%;
@@ -496,7 +496,6 @@ footer {
     }
 
     .flex-container > div {
-        background-color: #f1f1f1;
-        width: 45%;
+        width: 100%;
         margin: 10px;
       }
