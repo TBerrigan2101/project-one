@@ -29,7 +29,7 @@ body {
 
 .menu { 
     font-family: Oswald, sans-serif;
-    font-size: 110%;
+    font-size: 150%;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -75,9 +75,6 @@ h2 {
     margin-bottom: 5px;
 }
 
-.bold {
-    font-weight:700;
-}
 
 .description-text {
     font-family: Open Sans, sans-serif;
@@ -148,6 +145,11 @@ a:hover {
 ul, ol {
     margin-left: 15px;
     line-height: 160%;
+}
+
+.bold {
+    font-weight: 700;
+    color: #d96845;
 }
 
 
@@ -580,3 +582,4 @@ footer {
         left:10%;
         width: 80%;
     }
+}
