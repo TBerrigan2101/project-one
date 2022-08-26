@@ -326,12 +326,11 @@ ul, ol {
 
 /* about us section */
 
-#about-us-content {
+.content-container {
     height: auto;
     max-width: auto;
     margin: 5% 10%;
 }
-
 
 /* stories section */
 
