@@ -61,7 +61,7 @@ h1 {
     text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
-    line-height: 45px;
+    line-height: 65px;
     margin-bottom: 2%;
 }
 
@@ -74,6 +74,10 @@ h2 {
     text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+p {
     margin-bottom: 2%;
 }
 
@@ -512,18 +516,6 @@ footer {
 }
 
 
-    @media screen and (max-width: 780px) {  
-
-        #cover-text {
-            position: absolute;
-            top: 10%;
-            left:10%;
-            width: 75%;
-        }
-
-    }
-
-
     @media screen and (max-width: 600px) {      
 
     .logo img {
@@ -531,9 +523,17 @@ footer {
     }
 
     .menu { 
-        font-size: 90%;
+        font-size: 120%;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 4px;
+
+    }
+
+    .menu li{
+        clear: both;
+        float: left;
+        list-style-type: none;
+        margin-bottom: 2%;
     }
 
     .releases-left-box {
