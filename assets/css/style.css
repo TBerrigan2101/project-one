@@ -262,7 +262,6 @@ ul, ol {
     height: 600px;
     width: 100%;
     overflow: hidden;  
-
     position: relative;
 }
  
@@ -597,4 +596,6 @@ footer {
         left:10%;
         width: 80%;
     }
+
+    
 }
