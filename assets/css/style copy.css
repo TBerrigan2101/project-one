@@ -157,11 +157,6 @@ ul, ol {
 
 /* Structural CSS */
 
-.content-container {
-    max-width: auto;
-    margin: 5% 10%;
-}
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -214,12 +209,6 @@ ul, ol {
 
 .w100 {
     width: 100%
-}
-
-#spacer {
-    height: 150px;
-    max-width: auto;
-    margin: 5% 10%;
 }
 
 
@@ -356,6 +345,20 @@ ul, ol {
     color: #ffffff;
 }
 
+/* about us section */
+
+.content-container {
+    max-width: auto;
+    margin: 5% 10%;
+}
+
+/* stories section */
+
+#stories-content {
+    height: auto;
+    max-width: auto;
+    margin: 5% 10%;
+}
 
 /* media */
 
@@ -365,38 +368,48 @@ ul, ol {
 
 /* latest releases section */
 
+.latest-releases {
+    height: auto;
+    margin: 5% auto;
+    max-width: 80%;
+}
 
 .releases-left-box {
-    width: 31%;
+    width: 33%;
     float:left;
 }
 
 .releases-center-box {
-    width: 31%;
+    width: 33%;
     margin: 0 auto; 
 }
 
 .releases-right-box {
-    width: 31%;
+    width: 33%;
     float:right;    
 }
 
 
 /* latest stories section */
 
+#latest-stories {
+    height: auto;
+    max-width: auto;
+    margin: 5% 10%;
+}
 
 #stories-left-box {
-    width: 31%;
+    width: 33%;
     float:left;
 }
 
 #stories-center-box {
-    width: 31%;
+    width: 33%;
     margin: 0 auto; 
 }
 
 #stories-right-box {
-    width: 31%;
+    width: 33%;
     float:right;    
 }
 
@@ -409,6 +422,14 @@ ul, ol {
     column-count: 3;
     column-gap: 5px;
     padding: 5px;
+}
+
+/* spacer */
+
+#spacer {
+    height: 150px;
+    max-width: auto;
+    margin: 5% 10%;
 }
 
 
@@ -503,22 +524,7 @@ footer {
 }
 
 
-    @media screen and (max-width: 780px) {  
-
-        #cover-text {
-            position: absolute;
-            top: 10%;
-            left:10%;
-            width: 75%;
-        }
-
-    }
-
-
-
-
-
-    @media screen and (max-width: 600px) {      
+    @media screen and (max-width: 600px) {  
 
     .logo img {
         max-width: 100%;
