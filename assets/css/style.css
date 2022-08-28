@@ -61,6 +61,8 @@ h1 {
     text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
+    line-height: 45px;
+    margin-bottom: 2%;
 }
 
 h2 {
@@ -72,7 +74,7 @@ h2 {
     text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
 }
 
 
@@ -411,6 +413,13 @@ ul, ol {
     padding: 5px;
 }
 
+/* map */
+
+.map {
+    height: 100%;
+    padding: 5% 0 50% 0;
+}
+
 
 /* form */
 
@@ -515,9 +524,6 @@ footer {
     }
 
 
-
-
-
     @media screen and (max-width: 600px) {      
 
     .logo img {
@@ -525,7 +531,7 @@ footer {
     }
 
     .menu { 
-        font-size: 100%;
+        font-size: 90%;
         text-transform: uppercase;
         letter-spacing: 2px;
     }
