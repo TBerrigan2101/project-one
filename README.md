@@ -13,8 +13,6 @@ MOCK UPS
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-### Existing Features
-
 - __Navigation Bar__
 
   - A consistently designed navigation bar that appears on all of the site pages and allows visitors to navigate easily from one section of the site to another.
@@ -41,12 +39,18 @@ In this section, you should go over the different parts of your project, and des
   - A ‘Contact’ page listing the store address, opening hours as well as a form to submit a message and the option to sign up for a newsletter.
 
 
-### Future features
+## Future features
 
 - In the future an online shopping option would be implemented. The online shop would act as means of strictly selling the exclusive Limited Press releases to a wider audience due to their collector appeal. By limiting the store to its own releases it would allow the business to have a better sense of its stock situation and would not need to worry about selling other label releases that are easily available elsewhere and could be effected by external factors.
 
 - I would also like to add a social media feed such as Instragram or Twitter that would allow the business to quickly update customers about events or releases in the shop. I think that by including this feature it would allow the owners to quickly update customers without the need to go and edit the site for each news item. 
 
+## Typography and Colour Scheme
+
+- I designed the logo for this website so the colour scheme and typography choices are influenced by the logo to create a consistent brand/style throughout.  Oswald is used for headings and emphasis text, I chose it for its bold and clean style to echo that of the logo and Open Sans for some contrast as well as good legibility.
+
+- The colour scheme is minimalist with three colours used at maximum.  I chose these colours to allow for strong contrast and they are also influenced by colour schemes I have seen on similar independent record label sites ([Deep Elm](www.deepelm.com), [No Sleep](www.nosleeprecords.com),
+[Artic Rodeo](www.arcticrodeorecordings.com) as three examples) and I wanted to create something similar as that would be the market the site it aimed at.
 
 
 
@@ -84,11 +88,30 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
 
 
+## Technology Used
+- HTML
+- CSS
+
+In this section I will break down the credits for my project. 
+
+
 ## Credits 
 
 In this section I will break down the credits for my project. 
 
-### Content 
+### Code
+
+- The footer was developed from the [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) project.
+
+- The fix for my header navigation was devloped from the solution in the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example.
+
+- The flexbox on the [Releases](https://tberrigan2101.github.io/project-one/releases.html) page [here](https://www.w3schools.com/css/css3_flexbox.asp) example.
+
+
+
+### Fonts
+
+- All fonts were imported from [Google Fonts](https://fonts.google.com/about)
 
 ### Written Content 
 
@@ -104,7 +127,7 @@ In this section I will break down the credits for my project.
 
 - The album text on [Engine Down - Demure](https://tberrigan2101.github.io/project-one/engine-down-demure.html) was adapted from [Lovitt](http://store.lovitt.com/artists/2-engine-down/product/27-demure-lov028)
 
-- The album text on [Gratitue - Gratitude](https://tberrigan2101.github.io/project-one/gratitude-gratitude.html) was adapted from [The Punk Site](https://www.thepunksite.com/reviews/gratitude-self-titled/)
+- The album text on [Gratitude - Gratitude](https://tberrigan2101.github.io/project-one/gratitude-gratitude.html) was adapted from [The Punk Site](https://www.thepunksite.com/reviews/gratitude-self-titled/)
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
@@ -124,31 +147,10 @@ In this section I will break down the credits for my project.
 - The hero image on the [Stories](https://tberrigan2101.github.io/project-one/stories.html) was sourced from [Wikipedia](https://en.wikipedia.org/wiki/Engine_Down#/media/File:Engine_Down.jpg). The other images on this page have been cited above.
 
 
+### Acknowledgements
+
+- I would like to thank my Code Institute mentor Rohit Sharma for all of his help throughout the project.
+- My fellow students who helped me where they could.
 
 
 
-
-
-
-
-
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
