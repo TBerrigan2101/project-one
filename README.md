@@ -6,12 +6,11 @@ Limited Press operates both as a physical record store selling vinyl records spe
  
 The website does not currently offer an online ordering system and for now is meant to encourage people to visit the store so the site acts as an information point for people wishing to know more about their releases and in-store events via social media feeds.
 
-
-MOCK UPS
+![site-mockup.jpg](readme-images/site-mockup.jpg)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
 
 - __Navigation Bar__
 
@@ -92,7 +91,6 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - HTML
 - CSS
 
-In this section I will break down the credits for my project. 
 
 
 ## Credits 
@@ -101,11 +99,13 @@ In this section I will break down the credits for my project.
 
 ### Code
 
-- The footer was developed from the [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) project.
+- The footer and the three column float on the Home page for 'Latest Releases' and 'Latest Stories' was developed from the [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) project.
 
 - The fix for my header navigation was devloped from the solution in the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example.
 
-- The flexbox on the [Releases](https://tberrigan2101.github.io/project-one/releases.html) page [here](https://www.w3schools.com/css/css3_flexbox.asp) example.
+- The flexbox on the [Releases](https://tberrigan2101.github.io/project-one/releases.html) page I sourced from [here](https://www.w3schools.com/css/css3_flexbox.asp) example.
+
+ - The code I used to develop the 'two column' layout on the individual album release pages, 'Contact' and all the 'Stories' pages I sourced from [here](https://www.w3schools.com/howto/howto_css_two_columns.asp)
 
 
 
@@ -150,7 +150,7 @@ In this section I will break down the credits for my project.
 ### Acknowledgements
 
 - I would like to thank my Code Institute mentor Rohit Sharma for all of his help throughout the project.
-- My fellow students who helped me where they could.
+- My fellow students who helped me along the way.
 
 
 
