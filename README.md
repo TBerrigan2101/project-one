@@ -1,4 +1,4 @@
-# Love Running
+# Limited Press Records
 
 The website is for a business called Limited Press Records. 
 
@@ -23,58 +23,32 @@ In this section, you should go over the different parts of your project, and des
 
   - A common footer will also appear on the bottom of every page with links to social media as well as company contact details.
 
+- __Hero Image__
+
+  - A unique hero image on every page for graphic impact as well as means of highlighting what page the visitor is on.
+
+- __Stories__
+
+  - A ‘Stories’ section that highlights a particular artist and their release as a means of giving fans an inside look into the creation of that album and the artist process and thoughts on the release. This page would act as a gateway page listing the various artist interviews that would then link to the individual interview pages.
+
+- __Releases__
+
+  - A ‘Release’ section that would list all the releases by the label that would then link to individual pages listing the information for a specific release.
 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+- __Contact Page__
 
-- __The landing page image__
+  - A ‘Contact’ page listing the store address, opening hours as well as a form to submit a message and the option to sign up for a newsletter.
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+### Future features
 
-- __Club Ethos Section__
+- In the future an online shopping option would be implemented. The online shop would act as means of strictly selling the exclusive Limited Press releases to a wider audience due to their collector appeal. By limiting the store to its own releases it would allow the business to have a better sense of its stock situation and would not need to worry about selling other label releases that are easily available elsewhere and could be effected by external factors.
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+- I would also like to add a social media feed such as Instragram or Twitter that would allow the business to quickly update customers about events or releases in the shop. I think that by including this feature it would allow the owners to quickly update customers without the need to go and edit the site for each news item. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
@@ -112,20 +86,42 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+In this section I will break down the credits for my project. 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- All text on the [Homepage](https://tberrigan2101.github.io/project-one/index.html) and the [About](https://tberrigan2101.github.io/project-one/about.html) page is written by me
+
+- The interview on [Bob Nanna Story](https://tberrigan2101.github.io/project-one/stories-bob-nanna.html) was adapted from [Alt Press](https://www.altpress.com/qananna/)
+
+- The interview on [Jonah Matranga Story](https://tberrigan2101.github.io/project-one/stories-jonah-matranga.html) was adapted from [No Echo](https://www.noecho.net/interviews/jonah-matranga-far-onelinedrawing-new-end-original-gratitude)
+
+- The interview on [Ken Andrews Story](https://tberrigan2101.github.io/project-one/stories-ken-andrews.html) was adapted from [Las Vegas Weekly](https://lasvegasweekly.com/ae/music/2015/oct/20/failure-ken-andrews-interview-vegas-fremont-club/)
+
+- The album text on [Brandtson - Dial in Sounds](https://tberrigan2101.github.io/project-one/brandtson-dial-in-sounds.html) was adapted from [Deep Elm](http://www.deepelm.com/music/)
+
+- The album text on [Engine Down - Demure](https://tberrigan2101.github.io/project-one/engine-down-demure.html) was adapted from [Lovitt](http://store.lovitt.com/artists/2-engine-down/product/27-demure-lov028)
+
+- The album text on [Gratitue - Gratitude](https://tberrigan2101.github.io/project-one/gratitude-gratitude.html) was adapted from [The Punk Site](https://www.thepunksite.com/reviews/gratitude-self-titled/)
+
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The company logo was created by me
+
+- The images of all the records were taken from [Spotify](https://open.spotify.com/) and the mock ups werer creating using a mock up [Graphic burger](https://graphicburger.com/vinyl-record-psd-mockup/)
+
+
+
+
+
+
+
+
+
+
+
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
