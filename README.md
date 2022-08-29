@@ -90,7 +90,9 @@ In this section I will break down the credits for my project.
 
 ### Content 
 
-- All text on the [Homepage](https://tberrigan2101.github.io/project-one/index.html) and the [About](https://tberrigan2101.github.io/project-one/about.html) page is written by me
+### Written Content 
+
+- All text on the [Homepage](https://tberrigan2101.github.io/project-one/index.html), the [About](https://tberrigan2101.github.io/project-one/about.html) page and on the hero images is written by me
 
 - The interview on [Bob Nanna Story](https://tberrigan2101.github.io/project-one/stories-bob-nanna.html) was adapted from [Alt Press](https://www.altpress.com/qananna/)
 
@@ -110,8 +112,16 @@ In this section I will break down the credits for my project.
 
 - The company logo was created by me
 
-- The images of all the records were taken from [Spotify](https://open.spotify.com/) and the mock ups were created using a mock up [Graphic burger](https://graphicburger.com/vinyl-record-psd-mockup/)
+- The images of all the records were taken from [Spotify](https://open.spotify.com/) and the mock ups were created using a mock up from [Graphic burger](https://graphicburger.com/vinyl-record-psd-mockup/)
 
+- The images on the [Homepage](https://tberrigan2101.github.io/project-one/index.html) were taken from [Wikipedia](https://en.wikipedia.org/wiki/Ken_Andrews#/media/File:Ken_Andrews_2014.jpg), [Brooklyn Vegan](https://www.brooklynvegan.com/jonah-matranga-celebrating-new-book-playing-live-sets-on-fall-tour/), [Discogs](https://www.discogs.com/artist/447597-Bob-Nanna). The hero image was created using an image from [here](https://i.ytimg.com/vi/e8o_xaZh21k/maxresdefault.jpg). All images of the records were created using images as credited earlier.  
+
+- The images and hero images on the [About](https://tberrigan2101.github.io/project-one/about.html) and [Contact](https://tberrigan2101.github.io/project-one/contact.html) were sourced from [Unsplash](https://unsplash.com)
+
+- The hero images on the [Releases](https://tberrigan2101.github.io/project-one/releases.html) page and the album detail pages were were sourced from [Bandcamp](https://brandtson.bandcamp.com/music).
+
+
+- The hero image on the [Stories](https://tberrigan2101.github.io/project-one/stories.html) was sourced from [Wikipedia](https://en.wikipedia.org/wiki/Engine_Down#/media/File:Engine_Down.jpg). The other images on this page have been cited above.
 
 
 
