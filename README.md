@@ -8,7 +8,7 @@ The website does not currently offer an online ordering system and for now is me
 
 ![site-mockup.jpg](readme-images/site-mockup.jpg)
 
-## Features 
+## 1. Features 
 
 
 
@@ -38,22 +38,29 @@ The website does not currently offer an online ordering system and for now is me
   - A ‘Contact’ page listing the store address, opening hours as well as a form to submit a message and the option to sign up for a newsletter.
 
 
-## Future features
+## 2. Future features
 
 - In the future an online shopping option would be implemented. The online shop would act as means of strictly selling the exclusive Limited Press releases to a wider audience due to their collector appeal. By limiting the store to its own releases it would allow the business to have a better sense of its stock situation and would not need to worry about selling other label releases that are easily available elsewhere and could be effected by external factors.
 
 - I would also like to add a social media feed such as Instragram or Twitter that would allow the business to quickly update customers about events or releases in the shop. I think that by including this feature it would allow the owners to quickly update customers without the need to go and edit the site for each news item. 
 
-## Typography and Colour Scheme
+## 3. Typography and Colour Scheme
 
 - I designed the logo for this website so the colour scheme and typography choices are influenced by the logo to create a consistent brand/style throughout.  Oswald is used for headings and emphasis text, I chose it for its bold and clean style to echo that of the logo and Open Sans for some contrast as well as good legibility.
 
 - The colour scheme is minimalist with three colours used at maximum.  I chose these colours to allow for strong contrast and they are also influenced by colour schemes I have seen on similar independent record label sites ([Deep Elm](www.deepelm.com), [No Sleep](www.nosleeprecords.com),
 [Artic Rodeo](www.arcticrodeorecordings.com) as three examples) and I wanted to create something similar as that would be the market the site it aimed at.
 
+## 6. Wireframes
+- HTML
+- CSS
+
+## 7. Technology Used
+- HTML
+- CSS
 
 
-## Testing 
+## 8. Testing 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -64,40 +71,39 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-### Validator Testing 
+### 8.1 Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftberrigan2101.github.io%2Fproject-one%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftberrigan2101.github.io%2Fproject-one%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+
+### 8.1 Supported Screens and Browsers
+
+- I tested the site using Chrome, Safari and Firefox and all browsers tested fine.
+
+
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-## Deployment
+## 9. Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - 
 
 
-## Technology Used
-- HTML
-- CSS
-
-
-
-## Credits 
+## 10. Credits 
 
 In this section I will break down the credits for my project. 
 
-### Code
+### 10.1 Code
 
 - The footer and the three column float on the Home page for 'Latest Releases' and 'Latest Stories' was developed from the [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) project.
 
@@ -109,11 +115,11 @@ In this section I will break down the credits for my project.
 
 
 
-### Fonts
+### 10.2 Fonts
 
 - All fonts were imported from [Google Fonts](https://fonts.google.com/about)
 
-### Written Content 
+### 10.3 Written Content 
 
 - All text on the [Homepage](https://tberrigan2101.github.io/project-one/index.html), the [About](https://tberrigan2101.github.io/project-one/about.html) page and on the hero images is written by me
 
@@ -131,7 +137,7 @@ In this section I will break down the credits for my project.
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-### Media
+### 10.4 Media
 
 - The company logo was created by me
 
@@ -147,7 +153,7 @@ In this section I will break down the credits for my project.
 - The hero image on the [Stories](https://tberrigan2101.github.io/project-one/stories.html) was sourced from [Wikipedia](https://en.wikipedia.org/wiki/Engine_Down#/media/File:Engine_Down.jpg). The other images on this page have been cited above.
 
 
-### Acknowledgements
+### 10.5 Acknowledgements
 
 - I would like to thank my Code Institute mentor Rohit Sharma for all of his help throughout the project.
 - My fellow students who helped me along the way.
