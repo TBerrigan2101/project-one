@@ -67,7 +67,7 @@ h1 {
 
 h2 {
     font-family: Oswald, sans-serif;
-    color: #292828:
+    color: #292828;
     font-size: 24px;
     line-height: 33px;
     font-weight: 400;
@@ -432,7 +432,7 @@ ul, ol {
 
 .map {
     height: 100%;
-    padding: 5% 0 50% 0;
+    padding: 5% 2% 20% 0;
 }
 
 
@@ -481,7 +481,7 @@ ul, ol {
     text-align: center;
     font-size: 100%;
     background-color: #292828;
-    color: ##fcf9f7;
+    color: #fcf9f7;
     display: block;
 }
 
