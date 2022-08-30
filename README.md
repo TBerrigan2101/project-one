@@ -88,9 +88,9 @@ Below are my results from testing the site both structually and visually.
 
 - The people I tested the site with found the site easy to navigate and it felt relatively intuitive and the content made sense.
 
-- One of the major issues that was flagged with me was that they thought the off-white background was too strong particulary against the organge text at a smaller size so I made it lighter and the my original charcoal tint darker for the final product.
+- One of the major issues that was flagged with me was that they thought the off-white background was too strong particulary against the organge text at a smaller size so I made it lighter and my original charcoal tint darker for the final product.
 
-- The second was they felt that the mobile navigation was too small, was hard to read and difficult to tell what you were pressing. I then opted to create a nav section that would float under the logo similar to the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example. The original layout of the mobile navigation can be seen below.
+- The second was they felt that the mobile navigation was too small, was hard to read and difficult to tell what you were pressing. I was hoping to devlop a 'hamburger' or drop down menu but I was advised by by mentor that it may be too difficult to take on given the timescale so I opted to create a nav section that would float under the logo similar to the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example. The original layout of the mobile navigation can be seen below.
 
 ![mobile-nav.jpg](readme-images/mobile-nav.png)
 
