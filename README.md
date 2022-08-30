@@ -79,7 +79,7 @@ Below are my results from testing the site both structually and visually.
 ### 8.1 Code Validation
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftberrigan2101.github.io%2Fproject-one%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftberrigan2101.github.io%2Fproject-one%2F)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftberrigan2101.github.io%2Fproject-one%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -113,11 +113,15 @@ I then looked at some tutorials on W3 schools and was able to develop a solution
 
 ![hero-text-errors-mob.jpg](readme-images/hero-text-errors-mob.png)
 
-- There were also some typos and open bracket problems that were highlighted in the validators but they were easily corrected.
+- I had an issue with the layout of the map when I ran it through the validator. 
+
+![map issue](readme-images/map-issue.png)
+
+I was trying to make it fill the width of the column by applying a width of 100% to the element but this caused the iframe error. However I got a workaround from [here](https://stackoverflow.com/questions/24299990/can-percentage-be-provided-in-iframe-tag-of-html5-tag-for-height-and-width) and applied a width of 100% to the iframe itself in the css file
 
 ### 8.3 Unfixed bugs
 
-I am still not happy with layout of the map on the 'Contact' section. I had it proportionally filling the left column using my two column grid method but I was using percentages for width to allow for mobile scaling as advised and the validator kept giving me an error using percentages due to the embedding code I used to source the map.
+Nothing that I can see.
 
 
 ### 8.4 Supported Screens and Browsers
