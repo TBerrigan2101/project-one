@@ -1,5 +1,7 @@
 # Limited Press Records
 
+Live site: https://tberrigan2101.github.io/project-one/
+
 The website is for a business called Limited Press Records. 
 
 Limited Press operates both as a physical record store selling vinyl records specialising in music from the independent and alternative music scene as well as a label releasing limited vinyl releases under their own name.
@@ -46,7 +48,7 @@ The website does not currently offer an online ordering system and for now is me
 
 - In the future an online shopping option would be implemented. The online shop would act as means of strictly selling the exclusive Limited Press releases to a wider audience due to their collector appeal. By limiting the online store to its own releases it would allow the business to have a better sense of its stock situation and would not need to worry about potential issues selling other label releases on their online platform.
 
-- I would also like to add a social media feed such as Instragram or Twitter that would allow the business to quickly update customers about events or releases in the shop. I think that by including this feature it would allow the owners to quickly update customers without the need to go and edit the site for each news item. 
+- I would also like to add a social media feed such as Instagram or Twitter that would allow the business to quickly update customers about events or releases in the shop. I think that by including this feature it would allow the owners to quickly update customers without the need to go and edit the site for each news item. 
 
 ## 3. Typography and Colour Scheme
 
@@ -73,7 +75,7 @@ I started off doing my initial sketches on paper to develop the basic layout and
 
 ## 8. Testing 
 
-Below are my results from testing the site both structually and visually.
+Below are my results from testing the site both structurally and visually.
 
 
 ### 8.1 Code Validation
@@ -88,16 +90,16 @@ Below are my results from testing the site both structually and visually.
 
 - The people I tested the site with found the site easy to navigate and it felt relatively intuitive and the content made sense.
 
-- One of the major issues that was flagged with me was that they thought the off-white background was too strong particulary against the organge text at a smaller size so I made it lighter and my original charcoal tint darker for the final product.
+- One of the major issues that was flagged with me was that they thought the off-white background was too strong particularly against the orange text at a smaller size so I made it lighter and my original charcoal tint darker for the final product.
 
-- The second was they felt that the mobile navigation was too small, was hard to read and difficult to tell what you were pressing. I was hoping to devlop a 'hamburger' or drop down menu but I was advised by by mentor that it may be too difficult to take on given the timescale so I opted to create a nav section that would float under the logo similar to the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example. The original layout of the mobile navigation can be seen below.
+- The second was they felt that the mobile navigation was too small, was hard to read and difficult to tell what you were pressing. I was hoping to develop a 'hamburger' or drop down menu but I was advised by my mentor that it may be too difficult to take on given the timescale so I opted to create a nav section that would float under the logo similar to the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example. The original layout of the mobile navigation can be seen below.
 
 ![mobile-nav.jpg](readme-images/mobile-nav.png)
 
 
 ### 8.3 Fixed bugs
 
-- I wanted to create a two column layout for certain pages of the site so the content wouldn't become stretched across the page. I originally tried to create code for the column layout through CSS and applying it in the HTML so it would be two floating horizontal sections on desktop/tablet and would stack under eachother on mobile but wasn't getting the results I wanted. See screenshots and code below.
+- I wanted to create a two column layout for certain pages of the site so the content wouldn't become stretched across the page. I originally tried to create code for the column layout through CSS and applying it in the HTML so it would be two floating horizontal sections on desktop/tablet and would stack under each other on mobile but wasn't getting the results I wanted. See screenshots and code below.
 
 ![two-column layout issue.jpg](readme-images/layout-issue-2-columns.png)
 
@@ -130,7 +132,7 @@ Nothing that I can see.
 
 ### 8.5 Performance Testing
 
-- Initial test for the site was good and there were a few small changes to be made, mostly image sizing however I decided to stop compressing the hero banners after 2 attempts as I felt the image was being comprimised too much.
+- Initial test for the site was good and there were a few small changes to be made, mostly image sizing however I decided to stop compressing the hero banners after 2 attempts as I felt the image was being compromised too much.
 
 ![performance-homepage](readme-images/performance-homepage.png)
 
@@ -201,7 +203,7 @@ In this section I will break down the credits for my project.
 
 - The images and hero images on the [About](https://tberrigan2101.github.io/project-one/about.html) and [Contact](https://tberrigan2101.github.io/project-one/contact.html) were sourced from [Unsplash](https://unsplash.com)
 
-- The hero images on the [Releases](https://tberrigan2101.github.io/project-one/releases.html) page and the album detail pages were were sourced from [Bandcamp](https://brandtson.bandcamp.com/music).
+- The hero images on the [Releases](https://tberrigan2101.github.io/project-one/releases.html) page and the album detail pages were sourced from [Bandcamp](https://brandtson.bandcamp.com/music).
 
 
 - The hero image on the [Stories](https://tberrigan2101.github.io/project-one/stories.html) was sourced from [Wikipedia](https://en.wikipedia.org/wiki/Engine_Down#/media/File:Engine_Down.jpg). The other images on this page have been cited above.
