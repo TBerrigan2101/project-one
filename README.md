@@ -52,8 +52,11 @@ The website does not currently offer an online ordering system and for now is me
 [Artic Rodeo](www.arcticrodeorecordings.com) as three examples) and I wanted to create something similar as that would be the market the site it aimed at.
 
 ## 6. Wireframes
-- HTML
-- CSS
+
+I started off doing my initial sketches on paper to develop the basic layout and site structure.
+
+![site-mockup.jpg](readme-images/initial-sketches.png)
+
 
 ## 7. Technology Used
 - HTML
@@ -71,7 +74,7 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
-### 8.1 Validator Testing 
+### 8.1 Code Validation
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftberrigan2101.github.io%2Fproject-one%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -79,14 +82,45 @@ If this section grows too long, you may want to split it off into a separate fil
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftberrigan2101.github.io%2Fproject-one%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
-### 8.1 Supported Screens and Browsers
+### 8.2 User observations
+
+- The people I tested the site with found the site easy to navigate and it felt relatively intuitive and the content made sense.
+
+- One of the major issues that were flagged with me was that they thought the off-white background was too strong particulary against the organge text at a smaller size so I lightened it for the final product.
+
+- The second was they felt that the mobile navigation was too small, was hard to read and difficult to tell what you were pressing. I then opted to create a nav section that would float under the logo similar to the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example. The original layout of the mobile navigation can be seen below.
+
+![mobile-nav.jpg](readme-images/mobile-nav.png)
+
+
+### 8.3 Fixed bugs
+
+- I wanted to create a two column layout for certain pages of the site so the content wouldn't become stretched across the page. I originally tried to create code for the column layout through CSS and applying it in the HTML so it would be two floating horizontal sections on desktop/tablet and would stack under eachother on mobile but wasn't getting the results I wanted. See screenshots and code below.
+
+![two-column layout issue.jpg](readme-images/layout-issue-2-columns.png)
+
+![two-column layout issue.jpg](readme-images/layout-issue-html.png)
+
+![two-column layout issue.jpg](readme-images/layout-issue-css.png)
+
+![two-column layout issue.jpg](readme-images/layout-issue-css-mobile.png)
+
+I then looked at some tutorials on W3 schools and was able to develop a solution from [here](https://www.w3schools.com/howto/howto_css_two_columns.asp)
+
+- I also had some minor issues with the mobile layout of the text on the here images but I was able to adjust that making adjustments in Lighthouse and applying them to the code for the final piece.
+
+![hero-text-errors-mob.jpg](readme-images/hero-text-errors-mob.png)
+
+
+### 8.3 Unfixed bugs
+
+I am still not happy with layout of the map on the 'Contact' section
+
+
+### 8.4 Supported Screens and Browsers
 
 - I tested the site using Chrome, Safari and Firefox and all browsers tested fine.
 
-
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## 9. Deployment
 
