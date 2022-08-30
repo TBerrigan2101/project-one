@@ -26,7 +26,7 @@ The website does not currently offer an online ordering system and for now is me
 
 - __About__
 
-  - A page to give some historical background of the business, it's ethos, what it aims to do in the future and to encourage people to visit or contact the business.
+  - A page to give some historical background of the business, its ethos, what it aims to do in the future and to encourage people to visit or contact the business.
 
 - __Stories__
 
