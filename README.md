@@ -18,11 +18,15 @@ The website does not currently offer an online ordering system and for now is me
 
 - __Footer__
 
-  - A common footer will also appear on the bottom of every page with links to social media as well as company contact details.
+  - A common footer will also appear on the bottom of every page with links to social media accounts.
 
 - __Hero Image__
 
   - A unique hero image on every page for graphic impact as well as means of highlighting what page the visitor is on.
+
+- __About__
+
+  - A page to give some historical background of the business, it's ethos, what it aims to do in the future and to encourage people to visit or contact the business.
 
 - __Stories__
 
@@ -40,7 +44,7 @@ The website does not currently offer an online ordering system and for now is me
 
 ## 2. Future features
 
-- In the future an online shopping option would be implemented. The online shop would act as means of strictly selling the exclusive Limited Press releases to a wider audience due to their collector appeal. By limiting the store to its own releases it would allow the business to have a better sense of its stock situation and would not need to worry about selling other label releases that are easily available elsewhere and could be effected by external factors.
+- In the future an online shopping option would be implemented. The online shop would act as means of strictly selling the exclusive Limited Press releases to a wider audience due to their collector appeal. By limiting the online store to its own releases it would allow the business to have a better sense of its stock situation and would not need to worry about potential issues selling other label releases on their online platform.
 
 - I would also like to add a social media feed such as Instragram or Twitter that would allow the business to quickly update customers about events or releases in the shop. I think that by including this feature it would allow the owners to quickly update customers without the need to go and edit the site for each news item. 
 
@@ -53,7 +57,7 @@ The website does not currently offer an online ordering system and for now is me
 
 ## 6. Wireframes
 
-I started off doing my initial sketches on paper to develop the basic layout and site structure.
+I started off doing my initial sketches on paper to develop the basic layout and site structure. The final website layout did change from this as my initial layout proposal caused issues on mobile devices.
 
 ![site-mockup.jpg](readme-images/initial-sketches.png)
 
@@ -65,13 +69,7 @@ I started off doing my initial sketches on paper to develop the basic layout and
 
 ## 8. Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Below are my results from testing the site both structually and visually.
 
 
 ### 8.1 Code Validation
@@ -86,7 +84,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - The people I tested the site with found the site easy to navigate and it felt relatively intuitive and the content made sense.
 
-- One of the major issues that were flagged with me was that they thought the off-white background was too strong particulary against the organge text at a smaller size so I lightened it for the final product.
+- One of the major issues that was flagged with me was that they thought the off-white background was too strong particulary against the organge text at a smaller size so I lightened it for the final product.
 
 - The second was they felt that the mobile navigation was too small, was hard to read and difficult to tell what you were pressing. I then opted to create a nav section that would float under the logo similar to the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example. The original layout of the mobile navigation can be seen below.
 
@@ -111,6 +109,7 @@ I then looked at some tutorials on W3 schools and was able to develop a solution
 
 ![hero-text-errors-mob.jpg](readme-images/hero-text-errors-mob.png)
 
+- There were also some typos and open bracket problems that were highlighted in the validators but they were easily corrected.
 
 ### 8.3 Unfixed bugs
 
@@ -120,6 +119,19 @@ I am still not happy with layout of the map on the 'Contact' section
 ### 8.4 Supported Screens and Browsers
 
 - I tested the site using Chrome, Safari and Firefox and all browsers tested fine.
+
+### 8.5 Performance Testing
+
+- Initial test for the site was good and there were a few small changes to be made, mostly image sizing however I decided to stop compressing the hero banners after 2 attempts as I felt the image was being comprimised too much.
+
+![performance-homepage](readme-images/performance-homepage.png)
+
+- A major performance issue I was having was due to the embedded Youtube videos on the individual Stories pages
+
+![performance-fails](readme-images/performance-fails.jpg)
+
+- This was due to javascript issues and I felt it was best to leave the videos out for now until I become more familiar with the solutions.
+
 
 
 ## 9. Deployment
@@ -141,9 +153,9 @@ In this section I will break down the credits for my project.
 
 - The footer and the three column float on the Home page for 'Latest Releases' and 'Latest Stories' was developed from the [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) project.
 
-- The fix for my header navigation was devloped from the solution in the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example.
+- The fix for my header navigation was developed from the solution in the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example.
 
-- The flexbox on the [Releases](https://tberrigan2101.github.io/project-one/releases.html) page I sourced from [here](https://www.w3schools.com/css/css3_flexbox.asp) example.
+- The flexbox on the [Releases](https://tberrigan2101.github.io/project-one/releases.html) page I sourced from [here](https://www.w3schools.com/css/css3_flexbox.asp).
 
  - The code I used to develop the 'two column' layout on the individual album release pages, 'Contact' and all the 'Stories' pages I sourced from [here](https://www.w3schools.com/howto/howto_css_two_columns.asp)
 
@@ -155,7 +167,7 @@ In this section I will break down the credits for my project.
 
 ### 10.3 Written Content 
 
-- All text on the [Homepage](https://tberrigan2101.github.io/project-one/index.html), the [About](https://tberrigan2101.github.io/project-one/about.html) page and on the hero images is written by me
+- All text on the [Homepage](https://tberrigan2101.github.io/project-one/index.html), the [About](https://tberrigan2101.github.io/project-one/about.html) page and on the hero images is written by me.
 
 - The interview on [Bob Nanna Story](https://tberrigan2101.github.io/project-one/stories-bob-nanna.html) was adapted from [Alt Press](https://www.altpress.com/qananna/)
 
