@@ -6,7 +6,7 @@ Limited Press operates both as a physical record store selling vinyl records spe
  
 The website does not currently offer an online ordering system and for now is meant to encourage people to visit the store so the site acts as an information point for people wishing to know more about their releases and in-store events via social media feeds.
 
-![site-mockup.jpg](readme-images/site-mockup.jpg)
+![site-mockup](readme-images/site-mockup.jpg)
 
 ## 1. Features 
 
@@ -55,11 +55,15 @@ The website does not currently offer an online ordering system and for now is me
 - The colour scheme is minimalist with three colours used at maximum.  I chose these colours to allow for strong contrast and they are also influenced by colour schemes I have seen on similar independent record label sites ([Deep Elm](www.deepelm.com), [No Sleep](www.nosleeprecords.com),
 [Artic Rodeo](www.arcticrodeorecordings.com) as three examples) and I wanted to create something similar as that would be the market the site it aimed at.
 
+![colour scheme and logo](readme-images/colour-scheme.png)
+
 ## 6. Wireframes
 
 I started off doing my initial sketches on paper to develop the basic layout and site structure. The final website layout did change from this as my initial layout proposal caused issues on mobile devices.
 
-![site-mockup.jpg](readme-images/initial-sketches.png)
+![wireframe sketches](readme-images/initial-sketches.png)
+
+![wireframes illustrator](readme-images/refined-wireframes.png)
 
 
 ## 7. Technology Used
@@ -84,7 +88,7 @@ Below are my results from testing the site both structually and visually.
 
 - The people I tested the site with found the site easy to navigate and it felt relatively intuitive and the content made sense.
 
-- One of the major issues that was flagged with me was that they thought the off-white background was too strong particulary against the organge text at a smaller size so I lightened it for the final product.
+- One of the major issues that was flagged with me was that they thought the off-white background was too strong particulary against the organge text at a smaller size so I made it lighter and the my original charcoal tint darker for the final product.
 
 - The second was they felt that the mobile navigation was too small, was hard to read and difficult to tell what you were pressing. I then opted to create a nav section that would float under the logo similar to the [Kids Coding](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) example. The original layout of the mobile navigation can be seen below.
 
@@ -113,7 +117,7 @@ I then looked at some tutorials on W3 schools and was able to develop a solution
 
 ### 8.3 Unfixed bugs
 
-I am still not happy with layout of the map on the 'Contact' section
+I am still not happy with layout of the map on the 'Contact' section. I had it proportionally filling the left column using my two column grid method but I was using percentages for width to allow for mobile scaling as advised and the validator kept giving me an error using percentages due to the embedding code I used to source the map.
 
 
 ### 8.4 Supported Screens and Browsers
